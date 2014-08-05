@@ -1,0 +1,10 @@
+<%= image_tag(@pair.photo_name) %>
+<%= form_for [@pair, @pairing] do |f| %>
+    <%= f.label "When did you pair with #{@pair.name}" %>
+    <br>
+    <br>
+    <%= f.date_select :date %>
+    <br>
+    <br>
+    <%= f.submit 'Create Pairing' %>
+<% end %>

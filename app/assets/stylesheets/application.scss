@@ -83,3 +83,12 @@ main {
     margin-bottom: 1em;
   }
 }
+
+.gray_user {
+
+img {
+  opacity: 0.4;
+  filter: alpha(opacity=40); /* msie */
+}
+
+}
